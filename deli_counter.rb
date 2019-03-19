@@ -1,17 +1,27 @@
-katz_deli = ["1", "2", "3", "4", "5", "6", "7"].
+katz_deli = [ ]
 
-def position 
-  katz_deli[place]
+def line 
+  
+  if katz_deli.size = 0 
+    puts "The line is currently empty."
+  else 
+    puts "The line"
 end
 
-line_size = katz_deli.length
+def take_a_number(katz_deli, name)
+  
+  puts "Welcome #{name}. You are number" katz_deli.insert(katz_deli, -1) "in line."
+  katz_deli.push(name) OR katz_deli << (name)
+  
+  katz_deli.each_with_index do |katz_deli, name|
+  
+end
 
-def line(name, position) 
-  if line_size > katz_deli.length 
-    katz_deli.each_with_index do |katz_deli|
-      puts katz_deli, position 
-    katz_deli += 1  
-  elsif line_size = 0
-    puts "The line is currently empty."
-  end
-end 
+def now_serving(name)
+  
+  counter = 1
+  puts "Currently serving #{name}."
+  
+  
+  
+  
